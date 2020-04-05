@@ -1,0 +1,17 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: kibana
+  name: kibana-http
+  namespace: test-helm
+spec:
+  ports:
+  - name: http-access-kibana
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: kibana
+  sessionAffinity: None
+  type: ClusterIP

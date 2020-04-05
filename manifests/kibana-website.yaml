@@ -1,0 +1,12 @@
+﻿apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    app: kibana-website-ingress
+  name: kibana-website
+  namespace: test-helm
+spec:
+  rules:
+    - backend:
+        serviceName: ingress-kibana
+        servicePort: 5601
