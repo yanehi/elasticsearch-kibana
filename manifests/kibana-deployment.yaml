@@ -4,7 +4,7 @@ metadata:
   labels:
     app: kibana
   name: kibana-deployment
-  namespace: test-helm
+  namespace: elk-stack
 spec:
   progressDeadlineSeconds: 600
   replicas: 1

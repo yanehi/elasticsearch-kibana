@@ -4,7 +4,7 @@ metadata:
   labels:
     app: kibana
   name: kibana-http
-  namespace: test-helm
+  namespace: elk-stack
 spec:
   ports:
   - name: http-access-kibana

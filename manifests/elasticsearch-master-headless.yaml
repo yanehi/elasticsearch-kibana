@@ -6,7 +6,7 @@ metadata:
   labels:
     app: elasticsearch-master
   name: elasticsearch-master-headless
-  namespace: test-helm
+  namespace: elk-stack
 spec:
   clusterIP: None
   ports:

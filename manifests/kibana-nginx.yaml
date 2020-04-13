@@ -190,4 +190,4 @@ metadata:
   labels:
     app: kibana
   name: kibana-nginx
-  namespace: test-helm
+  namespace: elk-stack

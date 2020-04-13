@@ -4,7 +4,7 @@ metadata:
   labels:
     app: elasticsearch-master
   name: elasticsearch-master
-  namespace: test-helm
+  namespace: elk-stack
 spec:
   podManagementPolicy: Parallel
   replicas: 1
